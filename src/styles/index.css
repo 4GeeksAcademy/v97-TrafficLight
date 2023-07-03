@@ -1,12 +1,65 @@
+.top {
+  margin: auto;
+  background-color: black;
+  width: 30px;
+  height: 100px;
+}
 
-/* 
+.container {
+  background-color: black;
+  height: 350px;
+  width: 150px;
+  padding-top: 10px;
+  padding-left: 20px;
+  justify-content: space-between;
+  box-shadow: 0px 0px 25px 10px rgb(43, 43, 41);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.newContainer {
+  background-color: black;
+  height: 450px;
+  width: 150px;
+  padding-top: 10px;
+  justify-content: space-between;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 12px;
+  box-shadow: 0px 0px 25px 10px rgb(43, 43, 41);
+}
+.traffic-light {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  opacity: 35%;
+}
 
-*/
+.red {
+  background: #cc0000;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.active-traffic-light {
+  opacity: 100%;
+  box-shadow: 0px 0px 25px 10px rgb(227, 227, 180); 
+}
+
+.buttons{
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+ 
+  align-items: center;
+}
+
